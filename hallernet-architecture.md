@@ -18,6 +18,14 @@
 
 <!-- Vormittag: datenzentrierte Editionsplattform -->
 
+<span style="font-size:1em;position: absolute;right:-85px;top:0px;">Berner Haller-Forschung</span>
+<style>
+  .slide { background: url(img/haller-research.png) center; background-size: 93%; background-repeat: no-repeat; }
+</style>
+
+<span style="position: absolute;right:-120px;bottom:-30px;"><img src="img/haller-faust.png" width="300px"/></span>
+
+
 ---
 
 ```
