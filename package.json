@@ -1,0 +1,25 @@
+{
+  "name": "hallernet-architecture",
+  "version": "0.0.1",
+  "description": "Slides for Digitale Edition im Dialog, 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "eloc open \"./hallernet-architecture.md\" --css \"./style.css\"",
+    "start": "npm run open",
+    "build": "eloc build \"./hallernet-architecture.md\" --css \"./style.css\" --include \"./**\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsl-unibe-ch/hallernet-architecture.git"
+  },
+  "author": "Peter Dängeli, Christian Forney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsl-unibe-ch/hallernet-architecture/issues"
+  },
+  "homepage": "https://github.com/dsl-unibe-ch/hallernet-architecture#readme",
+  "dependencies": {
+    "eloc": "^1.3.2"
+  }
+}
