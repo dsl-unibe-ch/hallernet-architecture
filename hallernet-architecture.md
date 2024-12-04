@@ -12,7 +12,7 @@
 
 [https://dsl-unibe-ch.github.io/hallernet-architecture](https://dsl-unibe-ch.github.io/hallernet-architecture)
 
-<!-- ![qr-code](img/qr.png) -->
+![qr-code](img/qr.png)
 
 ---
 
@@ -41,6 +41,41 @@
 ```
 
 ---
+
+<div style="font-size:1em;position: absolute;right:-85px;bottom:50px;">Versionskontrolle<br/>
+- 1 Branch<br/>
+- 2 Commit-Wege <br/><span style="font-size:0.6em;">(serverseitige Edits + lokale Massenoperationen)</span>
+</div>
+<style>
+  .slide { background: url(img/git-history.png) center; background-size: 93%; background-repeat: no-repeat; }
+</style>
+
+---
+### data.hallernet (Git repository)
+
+aktuell ca. 132'000 Dateien
+
+```
+       Git commits                                                 
+                                                                                                                     
+       by month                         by weekday                              by year 
+       month   sum                      day	sum                             year 	sum      
+       Jan	438	|████        	Mon	1356	|█████████████       	2019	1251	|████████████ 
+       Feb	667	|██████      	Tue	1654	|████████████████    	2020	1726	|████████████████
+       Mar	768	|███████     	Wed	1287	|████████████        	2021	1366	|█████████████
+       Apr	750	|███████     	Thu	1553	|███████████████     	2022	1138	|███████████
+       May	696	|██████      	Fri	1132	|███████████         	2023	1484	|██████████████
+       Jun	623	|██████      	Sat	614	|██████               	2024	1212	|███████████
+       Jul	827	|████████    	Sun	581	|█████                  
+       Aug	765	|███████                                        
+       Sep	582	|█████                                          
+       Oct	786	|███████                                         
+       Nov	740	|███████                                     
+       Dec	535	|█████
+```
+
+---
+
 ```
 ╭─ ── ── ── ── ── ── ── ── ── ── ── ── ──┌─────────────────┐── ── ── ── ── ── ── ── ── ── ── ── ── ╮
 │                                        │oXygen XML Editor│                                       │
@@ -62,6 +97,7 @@
 │         │oXygen XML Editor│ oXygen-Framework (Java) + oXygen-Plugin (Python, JavaScript)         │
  ── ── ── ┴─────────────────┴─ ── ── ── ── ── ── ── ── ── ── ── ── ── ── ── ── ── ── ▲─ ── ── ── ── 
                                                                               WebDAV ┃              
+                                                                                     ┃
                                                                                      ▼              
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░ Gewöhnliches Dateisystem ░░░░░░░░░░░░░░░┌────────────┐░░░░░░░░░░░░░░░ Gewöhnlicher Dateiserver ░░
